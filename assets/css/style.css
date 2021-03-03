@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/* top header section and nav bar*/
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,7 +22,7 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
+.seo {
     color: #d9dcd6;
 }
 
@@ -39,7 +41,11 @@ body {
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
+
+    
 }
+
+/* nav bar atttributes*/
 
 a {
     color: #ffffff;
@@ -49,6 +55,8 @@ a {
 p {
     font-size: 16px;
 }
+
+/* main cover imamge*/
 
 .hero {
     height: 800px;
@@ -74,6 +82,8 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
+/*aside section*/
 
 .benefits {
     margin-right: 20px;
@@ -137,6 +147,8 @@ p {
     max-width: 150px;
 }
 
+/*main sections*/
+
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -176,20 +188,13 @@ p {
     max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+.search-engine-optimization.online-reputation-management.social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/*footer*/
 
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 .footer {
     padding: 30px;
@@ -201,6 +206,8 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+/*Hover enlarge functionality*/
 
 p.enlarge{
     font-size: 20px;
